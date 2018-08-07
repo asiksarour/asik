@@ -1,0 +1,33 @@
+/*
+ Theme Name:     Divi Child Theme
+ Theme URI:      https://www.elegantthemes.com/gallery/divi/
+ Description:    Divi Child Theme
+ Author:         Elegant Themes
+ Author URI:     https://www.elegantthemes.com
+ Template:       Divi
+ Version:        1.0.0
+*/
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
+/*Menu Slide in effect*/
+@media only screen and (min-width: 981px) {
+.shop-show-hide-desktopmobile {display:none !important;}
+ul#top-menu li.menu-item:nth-last-child(2) {padding-right:0px !important;}
+ul#divishop-menu {background: #fff;float: right;font-size: 15px;list-style: none;margin-right: -200px;margin-left: 20px !important;right: 0;z-index: 99;}
+ul#divishop-menu li {background: #fff;float: left;display: inline-block;font-size: 14px;text-transform:uppercase;}
+ul#divishop-menu a {color: #666666;display: block;line-height: 16px;padding: 24px 18px;text-decoration: none;font-size: 13px;font-weight: 600;}
+.et_divishop_cta .shop-float-in {overflow: hidden;transition: all 2.9s ease-out 0s !important;}
+.shop-float-in {transition: all 2.9s ease-out 0s !important;}
+ul#divishop-menu .shop-float-in a:hover {text-decoration: none;}
+ul#divishop-menu li.shop-cta{background: #F16334; position: relative;}
+ul#divishop-menu li.shop-cta:hover{background: #d7410f;}
+ul#divishop-menu li.shop-cta a{color: #FFFFFF;padding:25px 50px;}
+.et_divishop_cta #access-menu{margin-right: 25px;transition: all .6s ease-out 0s !important;}
+.et_divishop_cta ul#divishop-menu {margin: 0 -30px 0 0;}
+#main-header .et_menu_container,#divishop-menu,#access-menu,#et-top-navigation,.et_fixed_nav #et-top-navigation{  transition: all .4s ease-out 0s !important;}
+}
+@media only screen and (max-width: 980px) {
+ul#divishop-menu {display:none;}
+}
+
